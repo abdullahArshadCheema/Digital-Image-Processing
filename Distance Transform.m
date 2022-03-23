@@ -1,5 +1,5 @@
 
-[rows, cols] = size(binary_img);
+[rows, cols] = size(binary_img); % here binary_img is the matrix computed in gray to binary conversion program.
 
 nonZeroPixels_cords = [];
 pix_rows = 0;
